@@ -3,11 +3,12 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
-    "build": "opennextjs-cloudflare build",
+    "build": "next build",
     "dev": "next dev",
     "start": "next start",
     "lint": "eslint .",
     "clean": "next clean",
+    "cf:build": "opennextjs-cloudflare build",
     "preview": "opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare deploy",
     "upload": "opennextjs-cloudflare upload",
