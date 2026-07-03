@@ -151,7 +151,7 @@ function OneiroAppContent() {
           {/* User Profile Avatar */}
           <div className="flex items-center gap-2.5 pl-2 border-l border-white/10">
             <div className="w-8 h-8 rounded-full bg-white/5 border border-white/10 flex items-center justify-center font-mono text-xs text-indigo-300 font-bold">
-              JD
+              CN
             </div>
           </div>
         </div>
