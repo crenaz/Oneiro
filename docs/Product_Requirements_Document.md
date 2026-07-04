@@ -1,6 +1,6 @@
 # Product Requirements Document (PRD)
 
-## Óneiro 🌙 — Agentic Dream Journal & Pattern Analyst
+## Oneiromantia 🌙 — Agentic Dream Journal & Pattern Analyst
 
 ### Next.js 15 + TypeScript + Tailwind CSS + shadcn/ui
 
@@ -8,7 +8,7 @@
 
 # Product Vision
 
-Óneiro is an AI-powered dream intelligence platform that transforms unstructured dream journals into an interactive, visually immersive, and analytically rich experience.
+Oneiromantia is an AI-powered dream intelligence platform that transforms unstructured dream journals into an interactive, visually immersive, and analytically rich experience.
 
 The application leverages a Python-based multi-agent system that ingests dream logs, extracts recurring symbols, identifies Jungian archetypes and emotional trajectories, and generates procedural p5.js artwork representing the subconscious landscape of the user.
 
@@ -65,7 +65,7 @@ The interface should adapt responsively for tablets and mobile while preserving 
 
 Contains:
 
-* Óneiro logo
+* Oneiromantia logo
 * Search bar
 * New Dream button
 * Notifications
@@ -1003,4 +1003,4 @@ Typography should emphasize generous spacing, large headings, and excellent read
 
 # Overall Experience
 
-Óneiro should present itself as an **AI-powered observatory of the subconscious**—a place where reflective journaling, explainable multi-agent intelligence, and generative art converge. The interface should balance immersive storytelling with transparent analytics, allowing users to seamlessly move from writing a dream to exploring symbol networks, emotional trajectories, and procedurally generated visualizations. Every interaction should reinforce the feeling of exploring a living, evolving map of the user's inner world, making the application both emotionally engaging and technically trustworthy.
+Oneiromantia should present itself as an **AI-powered observatory of the subconscious**—a place where reflective journaling, explainable multi-agent intelligence, and generative art converge. The interface should balance immersive storytelling with transparent analytics, allowing users to seamlessly move from writing a dream to exploring symbol networks, emotional trajectories, and procedurally generated visualizations. Every interaction should reinforce the feeling of exploring a living, evolving map of the user's inner world, making the application both emotionally engaging and technically trustworthy.

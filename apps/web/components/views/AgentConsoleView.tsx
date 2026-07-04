@@ -26,7 +26,7 @@ export function AgentConsoleView() {
   const [activeTab, setActiveTab] = React.useState<'flow' | 'logs'>('flow');
   const [swarmState, setSwarmState] = React.useState<'idle' | 'running' | 'completed'>('completed');
   const [consoleLogs, setConsoleLogs] = React.useState<string[]>([
-    '[SYSTEM] Initializing Óneiro agent swarm...',
+    '[SYSTEM] Initializing Oneiromantia agent swarm...',
     '[NORMALIZER] Connection established to ADK server',
     '[EMOTION] Waiting for stream queue signal...',
     '[SYMBOL] DB indexes verified and locked',

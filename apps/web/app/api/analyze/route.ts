@@ -111,7 +111,7 @@ export async function POST(req: NextRequest) {
 
     // Call Gemini API to extract dream insights as a JSON object
     const prompt = `
-You are the Óneiro Subconscious Multi-Agent Analyzer. Analyze this dream journal entry.
+You are the Oneiromantia Subconscious Multi-Agent Analyzer. Analyze this dream journal entry.
 Return a structured JSON object strictly matching this schema:
 {
   "title": "A short poetic title for the dream (maximum 4 words)",

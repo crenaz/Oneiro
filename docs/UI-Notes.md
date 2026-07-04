@@ -2,20 +2,20 @@
 
 CONVERSATION FROM ChatGPT:
 	[ 
-	What kind of User Interface could human users utilize to interact with my python code project called: "Óneiro 🌙 → Agentic Dream Journal & Pattern Analyst"? This is a: "A multi-agent system that ingests dream logs, extracts recurring symbols and emotional arcs, and generates procedural art visualizations from them.". 
+	What kind of User Interface could human users utilize to interact with my python code project called: "Oneiromantia 🌙 → Agentic Dream Journal & Pattern Analyst"? This is a: "A multi-agent system that ingests dream logs, extracts recurring symbols and emotional arcs, and generates procedural art visualizations from them.". 
 	## 📖 Overview
-	Óneiro is an agentic engineering solution designed for the *AI Agents: Intensive Vibe Coding Capstone Project*. It transforms fragmented dream journals into a structured, visual, and analytical experience. By utilizing a multi-agent swarm, Óneiro extracts Jungian archetypes, identifies long-term emotional patterns, and translates the subconscious into interactive p5.js 3D generative art.
+	Oneiromantia is an agentic engineering solution designed for the *AI Agents: Intensive Vibe Coding Capstone Project*. It transforms fragmented dream journals into a structured, visual, and analytical experience. By utilizing a multi-agent swarm, Oneiromantia extracts Jungian archetypes, identifies long-term emotional patterns, and translates the subconscious into interactive p5.js 3D generative art.
 	### The Problem
 	Dream journaling is often a passive, unstructured task. Traditional apps fail to identify recurring symbolic clusters or provide a meaningful visual representation of the dreamer's internal landscape.
 	### The Solution
-	Óneiro employs a split-environment architecture using the Google Agent Development Kit (ADK) and the Model Context Protocol (MCP) to orchestrate specialized sub-agents that handle normalization, extraction, and artistic rendering.
+	Oneiromantia employs a split-environment architecture using the Google Agent Development Kit (ADK) and the Model Context Protocol (MCP) to orchestrate specialized sub-agents that handle normalization, extraction, and artistic rendering.
 	USER REQUEST: Give me an optimized, production-grade Layout Blueprint Recommendation for the user interface for this application to be built with NextJS
 
 	 ]
 
 
 ✨
-For a project like **Óneiro 🌙**, the UI should feel less like a CRUD dashboard and more like a **digital observatory of the subconscious**. Since the backend is a multi-agent AI system, the frontend should expose both **creative exploration** and **agent transparency** without overwhelming users.
+For a project like **Oneiromantia 🌙**, the UI should feel less like a CRUD dashboard and more like a **digital observatory of the subconscious**. Since the backend is a multi-agent AI system, the frontend should expose both **creative exploration** and **agent transparency** without overwhelming users.
 
 I would recommend designing it like a hybrid of:
 
@@ -765,7 +765,7 @@ public/
 
 ## Overall UX Philosophy
 
-The interface should feel like an **interactive subconscious observatory** rather than a conventional analytics dashboard. Every major screen should balance qualitative storytelling (dream narratives, generated artwork, AI insights) with quantitative analysis (symbol frequencies, emotional trends, agent execution status). This dual focus reinforces Óneiro's identity as both a reflective journaling experience and a transparent, explainable multi-agent AI platform. By combining immersive visuals, clear information hierarchy, and observable AI workflows, the application becomes equally compelling for everyday users exploring their dreams and for technical audiences evaluating the underlying agentic system.
+The interface should feel like an **interactive subconscious observatory** rather than a conventional analytics dashboard. Every major screen should balance qualitative storytelling (dream narratives, generated artwork, AI insights) with quantitative analysis (symbol frequencies, emotional trends, agent execution status). This dual focus reinforces Oneiromantia's identity as both a reflective journaling experience and a transparent, explainable multi-agent AI platform. By combining immersive visuals, clear information hierarchy, and observable AI workflows, the application becomes equally compelling for everyday users exploring their dreams and for technical audiences evaluating the underlying agentic system.
 
 ---
 	[ The previous response is very good. Please encapsulate previous response into a Product Requirements Document (PRD) that I pass into Google Stich or Claude Design including all layouts, navigation, pages, dashboard, AI Agent Console, Symbol Library, Archetype Explorer, Emotional Timeline, Pattern Network, Dream Gallery, Dream Detail, AI Insights Page, Search, Notifications. Keep the Typography and full Tech Stack. Make the Color Theme to be heavy on Purple and Violet with details in the Primary Colors for most Google web applications. Emphasis on animation; my Python agentic system outputs p5.js files to be displayed in the UI.   ]
@@ -773,14 +773,14 @@ The interface should feel like an **interactive subconscious observatory** rathe
 (GPT outputs the PRD.md)
 ---
 STITCH PROMPT: 
-	[ Project title: "Óneiro 🌙 → Agentic Dream Journal & Pattern Analyst"
+	[ Project title: "Oneiromantia 🌙 → Agentic Dream Journal & Pattern Analyst"
 	Project Description: "A multi-agent system that ingests dream logs, extracts recurring symbols and emotional arcs, and generates procedural art visualizations from them."
 	## 📖 Overview: 
-	Óneiro is an agentic engineering solution designed for the *AI Agents: Intensive Vibe Coding Capstone Project*. It transforms fragmented dream journals into a structured, visual, and analytical experience. By utilizing a multi-agent swarm, Óneiro extracts Jungian archetypes, identifies long-term emotional patterns, and translates the subconscious into interactive p5.js 3D generative art.
+	Oneiromantia is an agentic engineering solution designed for the *AI Agents: Intensive Vibe Coding Capstone Project*. It transforms fragmented dream journals into a structured, visual, and analytical experience. By utilizing a multi-agent swarm, Oneiromantia extracts Jungian archetypes, identifies long-term emotional patterns, and translates the subconscious into interactive p5.js 3D generative art.
 	### The Problem
 	Dream journaling is often a passive, unstructured task. Traditional apps fail to identify recurring symbolic clusters or provide a meaningful visual representation of the dreamer's internal landscape.
 	### The Solution
-	Óneiro employs a split-environment architecture using the Google Agent Development Kit (ADK) and the Model Context Protocol (MCP) to orchestrate specialized sub-agents that handle normalization, extraction, and artistic rendering.
+	Oneiromantia employs a split-environment architecture using the Google Agent Development Kit (ADK) and the Model Context Protocol (MCP) to orchestrate specialized sub-agents that handle normalization, extraction, and artistic rendering.
 	USER REQUEST: Generate an optimized, production-grade User Interface for this application to be built with NextJS+Flow+Motion on an AI agentic Python Backend.
  ]
 
@@ -860,11 +860,11 @@ oneiro/
 
 ---
 
-# Why a Monorepo Fits Óneiro
+# Why a Monorepo Fits Oneiromantia
 
 ### 1. It reflects the architecture
 
-Óneiro is one product:
+Oneiromantia is one product:
 
 ```
 Python Agents
@@ -1203,7 +1203,7 @@ This is often what differentiates polished capstone projects from functional pro
 
 # My Recommendation
 
-For **Óneiro**, I would structure the repository like this:
+For **Oneiromantia**, I would structure the repository like this:
 
 ```
 oneiro/

@@ -4,7 +4,7 @@ import * as React from 'react';
 import { useDreams, Dream, ArchetypeInfo } from '../../hooks/use-dreams';
 import { Eye, TrendingUp, Compass, Heart, ShieldAlert, Sparkles, BookOpen } from 'lucide-react';
 
-// Hardcoded rich descriptors for the 6 core Jungian archetypes mapped inside Óneiro
+// Hardcoded rich descriptors for the 6 core Jungian archetypes mapped inside Oneiromantia
 const ARCHETYPE_DESCRIPTORS: Record<string, {
   description: string;
   subtext: string;

@@ -103,7 +103,7 @@ function OneiroAppContent() {
             <div>
               <div className="flex items-baseline">
                 <span className="font-display font-semibold text-lg tracking-tight text-white">
-                  Óneiro
+                  Oneiromantia
                 </span>
                 <span className="text-slate-500 font-normal text-xs ml-1.5">Agentic Journal</span>
               </div>
@@ -292,7 +292,7 @@ function OneiroAppContent() {
           </div>
         </div>
         <div className="text-[10px] text-slate-600 font-mono tracking-wider">
-          ÓNEIRO SYSTEM v2.4.0-BETA // JUNGIAN_ENGINE_ENABLED
+          ONEIROMANTIA SYSTEM v0.2.0-BETA // JUNGIAN_ENGINE_ENABLED
         </div>
       </footer>
 

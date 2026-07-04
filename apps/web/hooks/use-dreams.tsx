@@ -247,7 +247,7 @@ export function DreamProvider({ children }: { children: React.ReactNode }) {
               title: analysis.title || d.title,
               lucidity: analysis.lucidity || 'High',
               dominantEmotion: analysis.dominantEmotion || d.mood,
-              summary: analysis.summary || 'Dream analyzed by Óneiro core agent.',
+              summary: analysis.summary || 'Dream analyzed by Oneiromantia core agent.',
               symbols: analysis.symbols || [],
               emotions: analysis.emotions || [],
               archetypes: analysis.archetypes || [],

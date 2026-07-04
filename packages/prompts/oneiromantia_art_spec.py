@@ -1,5 +1,5 @@
 # =============================================================================
-# ÓNEIRO — Art Generator: p5.js Output Specification
+# ONEIROMANTIA — Art Generator: p5.js Output Specification
 # =============================================================================
 # Drop this instruction string into make_art_generator() in the ADK skeleton,
 # replacing the previous instruction value.
@@ -154,7 +154,7 @@ No markdown, no code fences, no explanation. Plain p5.js code only.
 The sketch must run correctly when pasted into editor.p5js.org with no changes.
 
 ─────────────────────────────────────────────────────────────
-8. EMBEDDING IN THE ÓNEIRO UI
+8. EMBEDDING IN THE ONEIROMANTIA UI
 ─────────────────────────────────────────────────────────────
 The sketch will be embedded in an iframe or injected into a page that
 already loads the p5.js CDN library. Do not include a <script> tag for p5.

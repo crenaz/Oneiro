@@ -39,14 +39,14 @@ def make_orchestrator(
         name="oneiro_orchestrator",
         model="gemini-2.0-flash",
         description=(
-            "Main Óneiro process orchestrator. Normalizes dream input, loads MCP context, "
+            "Main Oneiromantia process orchestrator. Normalizes dream input, loads MCP context, "
             "dispatches sub-agents in parallel, and assembles the final report."
         ),
         sub_agents=[parallel_analysis],
         # The process orchestrator's system instruction handles phases 1, 2, and 4.
         # Phase 3 (staggered dispatch) is handled structurally by SequentialAgent above.
         instruction="""
-You are the Óneiro orchestrator. You coordinate the full dream analysis pipeline.
+You are the Oneiromantia orchestrator. You coordinate the full dream analysis pipeline.
 
 PHASE 1 — INTAKE
 When the user sends a dream, first produce a normalized dream record:

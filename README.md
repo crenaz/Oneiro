@@ -1,11 +1,11 @@
-# Óneiro 🌙 → Agentic Dream Journal & Pattern Analyst
+# Oneiromantia 🌙 → Agentic Dream Journal & Pattern Analyst
 
 "A multi-agent system that ingests dream logs, extracts recurring symbols and emotional arcs, and generates procedural art visualizations from them."
 ---
 ---
 
 ## 📖 Overview
-Óneiro is an agentic engineering solution designed for the *AI Agents: Intensive Vibe Coding Capstone Project*. It transforms fragmented dream journals into a structured, visual, and analytical experience. By utilizing a multi-agent swarm, Óneiro extracts Jungian archetypes, identifies long-term emotional patterns, and translates the subconscious into interactive p5.js 3D generative art.
+Oneiromantia is an agentic engineering solution designed for the *AI Agents: Intensive Vibe Coding Capstone Project*. It transforms fragmented dream journals into a structured, visual, and analytical experience. By utilizing a multi-agent swarm, Oneiromantia extracts Jungian archetypes, identifies long-term emotional patterns, and translates the subconscious into interactive p5.js 3D generative art.
 
 ### The Problem
 
@@ -13,15 +13,15 @@ Dream journaling is often a passive, unstructured task. Traditional apps fail to
 
 ### The Solution
 
-Óneiro employs a split-environment architecture using the Google Agent Development Kit (ADK) and the Model Context Protocol (MCP) to orchestrate specialized sub-agents that handle normalization, extraction, and artistic rendering.
+Oneiromantia employs a split-environment architecture using the Google Agent Development Kit (ADK) and the Model Context Protocol (MCP) to orchestrate specialized sub-agents that handle normalization, extraction, and artistic rendering.
 
 ---
 
 ## 🏗 Architecture: The Multi-Agent Swarm
 
-Óneiro follows a Sequential Orchestration pattern with a parallel dispatch phase:
+Oneiromantia follows a Sequential Orchestration pattern with a parallel dispatch phase:
 
-  1. **Process Orchestrator (oneiro_orchestrator):** Manages the 4-phase pipeline (Intake, Context Loading, Parallel Dispatch, and Assembly).
+  1. **Process Orchestrator (oneiromantia_orchestrator):** Manages the 4-phase pipeline (Intake, Context Loading, Parallel Dispatch, and Assembly).
   2. **Symbol Extractor:** A specialist sub-agent that identifies archetypal motifs (e.g., "water," "tower") and flags recurring symbols via historical context.
   3. **Pattern Analyst:** Conducts cross-session analysis to report on emotional arcs and emerging themes.
   4. **Art Generator:** Translates symbol graphs into a complete p5.js 3D sketch using manual projection and depth-sorting (Painter's Algorithm).
@@ -53,9 +53,9 @@ This project demonstrates the three required key concepts from the Kaggle course
 
 ### **Cloud Deployment (Google Cloud Run)**
 
-Óneiro is designed to be containerized and deployed as a serverless microservice.
+Oneiromantia is designed to be containerized and deployed as a serverless microservice.
 
-  * **Backend:** FastAPI/Uvicorn running the ADK Orchestrator in a Docker container.
+  * **Backend:** FastAPI/MCP/Uvicorn running the ADK Orchestrator in a Docker container.
   * **Frontend:** React+Vite or Next.js hosted on Cloud Run, communicating via HTTPS.
   * **Database:** Persistent storage via Cloud Firestore or MongoDB Atlas.
 
@@ -71,7 +71,7 @@ This project demonstrates the three required key concepts from the Kaggle course
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the Apache License, Version 2.0.
 
 ## ✍️ Author
 CRENAZ (C) 2026 | Capstone Project submission to [AI Agents: Intensive Vibe Coding Capstone Project | Kaggle](https://www.kaggle.com/competitions/vibecoding-agents-capstone-project)

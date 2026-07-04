@@ -1,5 +1,5 @@
 # =============================================================================
-# ÓNEIRO — ADK Agent Skeleton v0.2
+# ONEIROMANTIA — ADK Agent Skeleton v0.2
 # =============================================================================
 # Architecture:
 #   OrchestratorAgent
@@ -347,7 +347,7 @@ def make_orchestrator(
         name="oneiro_orchestrator",
         model=MODEL,
         description=(
-            "Main Óneiro process orchestrator. Normalizes dream input, loads MCP context, "
+            "Main process orchestrator. Normalizes dream input, loads MCP context, "
             "dispatches sub-agents in parallel, and assembles the final report."
         ),
         sub_agents=[parallel_analysis],

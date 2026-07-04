@@ -30,7 +30,7 @@ export function DreamGalleryView() {
             <span>Subconscious Dream Gallery</span>
           </h2>
           <p className="text-[#ccc3d8]/60 text-sm max-w-xl">
-            Procedural canvas artworks synthesized by the Óneiro Art Renderer agent.
+            Procedural canvas artworks synthesized by the Oneiromantia Art Renderer agent.
           </p>
         </div>
 
@@ -114,7 +114,7 @@ export function DreamGalleryView() {
                   </button>
                   <button
                     onClick={() => {
-                      alert('Synthesizing fresh seed sequence from Óneiro art engine...');
+                      alert('Synthesizing fresh seed sequence from Oneiromantia art engine...');
                     }}
                     className="p-2 hover:bg-white/10 rounded-lg text-white transition-colors"
                     title="Regenerate Seed"

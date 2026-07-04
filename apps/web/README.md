@@ -1,8 +1,8 @@
 ---
 
-# Óneiro — Frontend UI
+# Oneiromantia — Frontend UI
 
-The web-based visualizer for **Óneiro: Agentic Dream Journal & Pattern Analyst**. Built with **Next.js**, styled with TailwindCSS, and deployed globally via **Cloudflare Pages**, this interface provides an interactive dashboard to view multi-agent analysis pipelines, trace emotional arcs, and render procedural p5.js canvas visualizations.
+The web-based visualizer for **Oneiromantia: Agentic Dream Journal & Pattern Analyst**. Built with **Next.js**, styled with TailwindCSS, and deployed globally via **Cloudflare Pages**, this interface provides an interactive dashboard to view multi-agent analysis pipelines, trace emotional arcs, and render procedural p5.js canvas visualizations.
 
 ---
 
