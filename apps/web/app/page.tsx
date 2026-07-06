@@ -114,9 +114,10 @@ function OneiroAppContent() {
                 <span className="font-display font-semibold text-lg tracking-tight text-white">
                   Oneiromantia
                 </span>
-                <span className="text-slate-500 font-normal text-xs ml-1.5">Agentic Journal</span>
+                        {/* span used to have this: OBSERVATORY */}
+                <span className="text-slate-500 font-normal text-xs ml-1.5">✨</span>
               </div>
-              <span className="text-[9px] font-mono text-slate-500 block tracking-widest leading-none">OBSERVATORY</span>
+              <span className="text-[9px] font-mono text-slate-500 block tracking-widest leading-none">Agentic Analyst</span>
             </div>
           </div>
         </div>

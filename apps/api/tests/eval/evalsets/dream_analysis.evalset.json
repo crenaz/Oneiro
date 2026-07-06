@@ -1,0 +1,80 @@
+{
+  "name": "Dream Orchestration Pipeline Evaluation Suite",
+  "description": "Validates the multi-agent graph DAG, MCP data fetching, schema validation, and final markdown generation.",
+  "metadata": {
+    "framework": "ADK 2.0",
+    "target_file": "agent.py"
+  },
+  "eval_cases": [
+    {
+      "eval_case_id": "tc_001_standard_flow",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I was flying over a vast desert, chasing a glowing clock that was melting away. My session ID is test-session-123."
+          }
+        ]
+      },
+      "expected_outputs": [
+        {
+          "source_node": "assembly_node",
+          "assertions": [
+            {
+              "type": "contains_text",
+              "value": "# Dream Analysis Report"
+            },
+            {
+              "type": "contains_text",
+              "value": "## Symbol Frequency"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "eval_case_id": "tc_002_structured_schema_validation",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I was trapped in a room full of mirrors and an owl was staring at me. My session ID is test-session-456."
+          }
+        ]
+      },
+      "expected_outputs": [
+        {
+          "source_node": "process_symbol_extractor_output",
+          "assertions": [
+            {
+              "type": "is_valid_json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "eval_case_id": "tc_003_mcp_persistence_and_art_seed",
+      "prompt": {
+        "role": "user",
+        "parts": [
+          {
+            "text": "An ocean of dark ink where mechanical fish were swimming upside down. My session ID is test-session-789."
+          }
+        ]
+      },
+      "expected_outputs": [
+        {
+          "source_node": "save_dream_and_prepare_art",
+          "assertions": [
+            {
+              "type": "has_json_keys",
+              "keys": ["art_seed", "mcp_status"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

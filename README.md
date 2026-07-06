@@ -1,4 +1,4 @@
-# Oneiromantia 🌙 → Agentic Dream Journal & Pattern Analyst
+# Oneiromantia 🌙 → Agentic Dream Analyst & Pattern Visualizer
 
 "A multi-agent system that ingests dream logs, extracts recurring symbols and emotional arcs, and generates procedural art visualizations from them."
 ---

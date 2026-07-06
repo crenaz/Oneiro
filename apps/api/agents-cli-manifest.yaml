@@ -1,5 +1,5 @@
-name: "oneiro"
-agent_directory: "."
+name: "oneiromantia"
+agent_directory: "orchestrator"
 create_params:
   deployment_target: "none"
   session_type: "in_memory"

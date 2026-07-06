@@ -1,11 +1,17 @@
 [project]
-name = "oneiro"
-version = "0.1.0"
+name = "oneiromantia"
+version = "0.3.0"
 description = "A multi-agent system that ingests dream logs, extracts recurring symbols and emotional arcs, and generates procedural art visualizations from them."
 requires-python = ">=3.13"
 dependencies = [
     "google-adk>=2.3.0",
     "mcp",
+]
+
+[project.optional-dependencies]
+eval = [
+    "google-adk[eval]>=2.0.0,<3.0.0",
+    "google-cloud-aiplatform[evaluation]>=1.156.0",
 ]
 
 [build-system]
@@ -22,4 +28,5 @@ packages = [
 ]
 
 [tool.hatch.build.targets.wheel.force-include]
-"../../packages/prompts/oneiro_art_spec.py" = "oneiro_art_spec.py"
+"../../packages/prompts/oneiromantia_art_spec.py" = "oneiromantia_art_spec.py"
+

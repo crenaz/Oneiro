@@ -21,7 +21,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Oneiromantia 🌙 | Agentic Dream Journal & Pattern Analyst',
+  title: 'Oneiromantia 🌙 | Agentic Dream Analyst & Pattern Visualizer',
   description: 'An AI-powered digital observatory of the subconscious using multi-agent analysis and procedural dream visualizations.',
 };
 

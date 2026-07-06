@@ -41,12 +41,13 @@ def build_mcp_server() -> MCPServer:
 
     @server.read_resource()
     async def read_resource(uri: str) -> str:
+        uri_str = str(uri)
         # dream://entries — return all entries, newest first
-        if uri == "dream://entries":
+        if uri_str == "dream://entries":
             return json.dumps(list(reversed(_journal)), indent=2)
 
         # dream://symbols/all — flatten and count every symbol
-        if uri == "dream://symbols/all":
+        if uri_str == "dream://symbols/all":
             freq: dict[str, int] = {}
             for entry in _journal:
                 for sym in entry.get("symbols", []):
@@ -55,7 +56,7 @@ def build_mcp_server() -> MCPServer:
             return json.dumps([{"symbol": s, "count": c} for s, c in ranked])
 
         # dream://patterns/recent — symbols from the last 30 days, min count 2
-        if uri == "dream://patterns/recent":
+        if uri_str == "dream://patterns/recent":
             cutoff = datetime.datetime.utcnow() - datetime.timedelta(days=30)
             freq: dict[str, int] = {}
             for entry in _journal:
@@ -66,7 +67,7 @@ def build_mcp_server() -> MCPServer:
             recurring = {s: c for s, c in freq.items() if c >= 2}
             return json.dumps(recurring)
 
-        raise ValueError(f"Unknown resource URI: {uri}")
+        raise ValueError(f"Unknown resource URI: {uri_str}")
 
     # -------------------------------------------------------------------------
     # TOOLS
