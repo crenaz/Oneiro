@@ -84,6 +84,7 @@ async def analyze_dream(request: AnalyzeRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@app.get("/health")
 @app.get("/healthz")
 async def health_check():
     return {"status": "ok"}
